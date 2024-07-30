@@ -37,11 +37,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESCAPE      &kp N1  &kp N2  &kp N3        &kp N4  &kp N5                               &kp N6  &kp N7         &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB         &kp Q   &kp W   &kp E         &kp R   &kp T                                &kp Y   &kp U          &kp I      &kp O    &kp P     &kp BACKSLASH
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F   &kp G                                &kp H   &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LCTRL       &kp Z   &kp X   &kp C         &kp V   &kp B         &kp LBKT     &kp RBKT  &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                                &kp LEFT_GUI  &mo 1   &kp LEFT_ALT  &kp SPACE    &kp RET   &mo 2   &kp RIGHT_ALT  &mo 3
+&kp ESCAPE      &kp N1  &kp N2  &kp N3        &kp N4  &kp N5                                 &kp N6  &kp N7         &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp E         &kp R   &kp T                                  &kp Y   &kp U          &kp I      &kp O    &kp P     &kp BACKSLASH
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F   &kp G                                  &kp H   &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LCTRL       &kp Z   &kp X   &kp C         &kp V   &kp B         &kp LBKT       &kp RBKT  &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                &kp LEFT_GUI  &mo 1   &kp LEFT_ALT  &lt 3 SPACE    &kp RET   &mo 2   &kp RIGHT_ALT  &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -87,7 +87,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        layer_3 {
+        bluetooth {
             bindings = <
 &bt BT_CLR                &bt BT_SEL 0              &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans  &kp C_PLAY_PAUSE
 &Change_Output OUT_BLE 0  &Change_Output OUT_USB 0  &ext_power EP_ON  &ext_power EP_OFF  &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP
